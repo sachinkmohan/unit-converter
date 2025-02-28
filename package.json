@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s04ja66",
-  "description": "https://scrimba.com/frontend-path-c0j/~09t/s0s8c84pn0/head",
+  "name": "Unit Converter",
+  "description": "A scrimba project",
   "scripts": {
     "start": "vite",
     "dev": "vite",
