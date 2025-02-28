@@ -10,11 +10,17 @@ const meterEl = document.getElementById("meter");
 const volumeEl = document.getElementById("volume");
 const massEl = document.getElementById("mass");
 
-textEl.addEventListener("input", function () {
+// textEl.addEventListener("input", function () {
+//   renderMeterData(textEl.value);
+//   renderVolumeData(textEl.value);
+//   renderMassData(textEl.value);
+// });
+
+function renderAllData() {
   renderMeterData(textEl.value);
   renderVolumeData(textEl.value);
   renderMassData(textEl.value);
-});
+}
 
 function renderMeterData(val) {
   const metersToFeet = 3.281;

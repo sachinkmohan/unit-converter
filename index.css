@@ -9,7 +9,7 @@ h3 {
 }
 
 #container {
-  width: 550px;
+  /* width: 550px; */
   margin: 15px auto;
   display: flex;
   flex-direction: column;
@@ -43,14 +43,13 @@ button {
 
 #conversions {
   background-color: #f4f4f4;
-  padding: 50px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
 }
 
 .data {
-  height: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   background-color: #c4c2bc;
   display: flex;
   flex-direction: column;
