@@ -9,12 +9,11 @@ console.log(textEl);
 const meterEl = document.getElementById("meter");
 const volumeEl = document.getElementById("volume");
 const massEl = document.getElementById("mass");
+const buttonEl = document.getElementById("button-el");
 
-// textEl.addEventListener("input", function () {
-//   renderMeterData(textEl.value);
-//   renderVolumeData(textEl.value);
-//   renderMassData(textEl.value);
-// });
+buttonEl.addEventListener("click", function () {
+  renderAllData();
+});
 
 function renderAllData() {
   renderMeterData(textEl.value);
